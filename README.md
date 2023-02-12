@@ -24,3 +24,10 @@ El archivo cuenta con 5 columnas:
 * Se grafica las velocidades de la señal filtrada por el segundo método.
 * Se procede a utilizar el primer método en el programa Kallpa Processor, verificando que el filtrado disminuye bastante la energía en comparación con el Software PDA.
 
+## 3. Como usar este repositorio
+* Debemos tener anaconda o minicodan instalado.
+* Clonar el repositorio.
+* Abrir tu conda prompt
+* Usar el archivo yml para instalar la version de Python y sus paquetes respectivos con el comando: conda env create -f kallpa_fourier.yml
+* Activar el entorno virtual llamado kallpa_v1 con el comando: conda activate kallpa_v1
+* Abrir un jupyter notebook con el comando: jupyter notebook
